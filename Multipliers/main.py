@@ -52,7 +52,8 @@ def upgradeClick(data):
 
 def betterUpgradeClick(data):
     GameController.GetSlider(data.buys).Buy(2500 * data.level * data.discount)
-    GameController.GetSlider(data.muls).BuyMuls()
+    for x in range(20):
+        GameController.GetSlider(data.muls).BuyMuls()
     data.level += 20
     data.updateProgress()
     return data
