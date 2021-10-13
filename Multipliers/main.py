@@ -17,7 +17,7 @@ class Data:
         self.discount = 1
 
     def updateProgress(self):
-        self.nameText = "M" + str(self.id) + " = " + GameController.GetSlider(self.buys).textName + "*" + GameController.GetSlider(self.muls).textName 
+        self.nameText = "M" + str(self.id) + " - " + GameController.GetSlider(self.buys).textName + "*" + GameController.GetSlider(self.muls).textName 
 
 def onLoad():
     return  "Success Loading"
