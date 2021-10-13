@@ -47,8 +47,10 @@ def destroyModule(data):
     return data
 
 def onPrestige(data):
+    data.level = 0
     data.goal = 1000.0
     data.current = BigNumber(0)
+    data.progress = BigNumber(0)
     return data
 
 def loadSave(save, id):
