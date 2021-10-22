@@ -16,7 +16,7 @@
     },
     {
       "path": "Incrementor2",
-      "install_name": "incrementor-moduler"
+      "install_name": "incrementor-module"
     },
     {
       "path": "Multipliers",
